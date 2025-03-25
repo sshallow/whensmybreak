@@ -10,7 +10,7 @@ import SwiftUI
 import WidgetKit
 
 struct MyFirstWidgetControl: ControlWidget {
-    static let kind: String = "com.shangshy.count.whensmybreak.MyFirstWidget"
+    static let kind: String = "com.shangshy.count.MyFirstWidget"
 
     var body: some ControlWidgetConfiguration {
         AppIntentControlConfiguration(
